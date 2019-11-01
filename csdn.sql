@@ -2,7 +2,9 @@ SET NAMES UTF8;
 DROP DATABASE IF EXISTS csdn;
 CREATE DATABASE csdn CHARSET=UTF8;
 USE csdn;
-
+#43.242.156.6
+#root
+#cswangjie.1
 /**用户表**/
 CREATE TABLE csdn_user(
     uid INT PRIMARY KEY AUTO_INCREMENT,
@@ -16,9 +18,9 @@ CREATE TABLE csdn_user(
     company VARCHAR(32),
     gander INT
 );
-INSERT INTO csdn_user VALUES(null,"tom",'123',"汤姆猫","http://127.0.0.1:4000/userAvatar/tom.jpg","http://127.0.0.1:4000/zzz.jpeg",'goodgoodstudy,daydayup','加州理工','Tencent',1);
-INSERT INTO csdn_user VALUES(null,"jerry",'123',"杰瑞鼠","http://127.0.0.1:4000/userAvatar/jerry.jpg","127.0.0.1:4000/img/01.jpg","我是真的帅","清华","达内",0);
-INSERT INTO csdn_user VALUES(null,"tony",'123',"托尼狗","http://127.0.0.1:4000/userAvatar/tony.jpg","127.0.0.1:4000/img/01.jpg","吃好喝好睡好","剑桥","达内",0);
+INSERT INTO csdn_user VALUES(null,"tom",'123',"汤姆猫","http://127.0.0.1:4000/userAvatar/tom.jpg","http://127.0.0.1:4000/bg1.jpg",'goodgoodstudy,daydayup','加州理工','Tencent',1);
+INSERT INTO csdn_user VALUES(null,"jerry",'123',"杰瑞鼠","http://127.0.0.1:4000/userAvatar/jerry.jpg","127.0.0.1:4000/bg2.jpg","我是真的帅","清华","达内",0);
+INSERT INTO csdn_user VALUES(null,"tony",'123',"托尼狗","http://127.0.0.1:4000/userAvatar/tony.jpg","127.0.0.1:4000/bg3.jpg","吃好喝好睡好","剑桥","达内",0);
 
 
 /**博文 帖子 动态表**/
